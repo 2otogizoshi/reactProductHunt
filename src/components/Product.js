@@ -1,10 +1,10 @@
 import React from "react";
 
-const Product = () => (
+const Product = props => (
   <div className="item">
     <div className="image">
       <h2>image here</h2>
-      <img src="images/products/image-aqua.png" />
+      <img src={props.imgUrl} />
     </div>
     <div className="middle aligned content">
       <div className="description">
