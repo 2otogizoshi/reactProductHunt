@@ -2,7 +2,7 @@ import React from "react";
 import ProductList from "./ProductList";
 
 const App = () => (
-  <div>
+  <div className="ui unstackable items">
     <h1>Hello world</h1>
     <ProductList />
   </div>
