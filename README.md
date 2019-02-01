@@ -1,2 +1,0 @@
-# reactProductHunt
-Created with CodeSandbox
